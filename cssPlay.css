@@ -1,0 +1,12 @@
+.outer {
+  background-color: indianred;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+.inner {
+  background-color: indigo;
+  width: 300px;
+  height: 300px;
+  float: right;
+}

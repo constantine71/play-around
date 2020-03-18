@@ -1,0 +1,16 @@
+.outer {
+  background-color: blue;
+}
+.inner {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+  visibility: hidden;
+}
